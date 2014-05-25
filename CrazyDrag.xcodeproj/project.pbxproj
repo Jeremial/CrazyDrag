@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A6AC9E1931CC4400A22074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6AC9D1931CC4400A22074 /* Foundation.framework */; };
+		47A6ACA01931CC4400A22074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6AC9F1931CC4400A22074 /* CoreGraphics.framework */; };
+		47A6ACA21931CC4400A22074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6ACA11931CC4400A22074 /* UIKit.framework */; };
+		47A6ACA81931CC4400A22074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47A6ACA61931CC4400A22074 /* InfoPlist.strings */; };
+		47A6ACAA1931CC4400A22074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A6ACA91931CC4400A22074 /* main.m */; };
+		47A6ACAE1931CC4400A22074 /* CrazyDragAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A6ACAD1931CC4400A22074 /* CrazyDragAppDelegate.m */; };
+		47A6ACB11931CC4400A22074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A6ACAF1931CC4400A22074 /* Main.storyboard */; };
+		47A6ACB41931CC4400A22074 /* CrazyDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A6ACB31931CC4400A22074 /* CrazyDragViewController.m */; };
+		47A6ACB61931CC4400A22074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A6ACB51931CC4400A22074 /* Images.xcassets */; };
+		47A6ACBD1931CC4400A22074 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6ACBC1931CC4400A22074 /* XCTest.framework */; };
+		47A6ACBE1931CC4400A22074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6AC9D1931CC4400A22074 /* Foundation.framework */; };
+		47A6ACBF1931CC4400A22074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6ACA11931CC4400A22074 /* UIKit.framework */; };
+		47A6ACC71931CC4400A22074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47A6ACC51931CC4400A22074 /* InfoPlist.strings */; };
+		47A6ACC91931CC4400A22074 /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A6ACC81931CC4400A22074 /* CrazyDragTests.m */; };
+		47A6ACDD1932008E00A22074 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A6ACDB1932008E00A22074 /* AboutViewController.m */; };
+		47A6ACDE1932008E00A22074 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A6ACDC1932008E00A22074 /* AboutViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47A6ACC01931CC4400A22074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A6AC921931CC4400A22074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A6AC991931CC4400A22074;
+			remoteInfo = CrazyDrag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47A6AC9A1931CC4400A22074 /* CrazyDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A6AC9D1931CC4400A22074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47A6AC9F1931CC4400A22074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47A6ACA11931CC4400A22074 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47A6ACA51931CC4400A22074 /* CrazyDrag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDrag-Info.plist"; sourceTree = "<group>"; };
+		47A6ACA71931CC4400A22074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47A6ACA91931CC4400A22074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47A6ACAB1931CC4400A22074 /* CrazyDrag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyDrag-Prefix.pch"; sourceTree = "<group>"; };
+		47A6ACAC1931CC4400A22074 /* CrazyDragAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragAppDelegate.h; sourceTree = "<group>"; };
+		47A6ACAD1931CC4400A22074 /* CrazyDragAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragAppDelegate.m; sourceTree = "<group>"; };
+		47A6ACB01931CC4400A22074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47A6ACB21931CC4400A22074 /* CrazyDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragViewController.h; sourceTree = "<group>"; };
+		47A6ACB31931CC4400A22074 /* CrazyDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragViewController.m; sourceTree = "<group>"; };
+		47A6ACB51931CC4400A22074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47A6ACBB1931CC4400A22074 /* CrazyDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A6ACBC1931CC4400A22074 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47A6ACC41931CC4400A22074 /* CrazyDragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDragTests-Info.plist"; sourceTree = "<group>"; };
+		47A6ACC61931CC4400A22074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47A6ACC81931CC4400A22074 /* CrazyDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragTests.m; sourceTree = "<group>"; };
+		47A6ACDA1932008E00A22074 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		47A6ACDB1932008E00A22074 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		47A6ACDC1932008E00A22074 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A6AC971931CC4400A22074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACA01931CC4400A22074 /* CoreGraphics.framework in Frameworks */,
+				47A6ACA21931CC4400A22074 /* UIKit.framework in Frameworks */,
+				47A6AC9E1931CC4400A22074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A6ACB81931CC4400A22074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACBD1931CC4400A22074 /* XCTest.framework in Frameworks */,
+				47A6ACBF1931CC4400A22074 /* UIKit.framework in Frameworks */,
+				47A6ACBE1931CC4400A22074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A6AC911931CC4400A22074 = {
+			isa = PBXGroup;
+			children = (
+				47A6ACA31931CC4400A22074 /* CrazyDrag */,
+				47A6ACC21931CC4400A22074 /* CrazyDragTests */,
+				47A6AC9C1931CC4400A22074 /* Frameworks */,
+				47A6AC9B1931CC4400A22074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47A6AC9B1931CC4400A22074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47A6AC9A1931CC4400A22074 /* CrazyDrag.app */,
+				47A6ACBB1931CC4400A22074 /* CrazyDragTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47A6AC9C1931CC4400A22074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47A6AC9D1931CC4400A22074 /* Foundation.framework */,
+				47A6AC9F1931CC4400A22074 /* CoreGraphics.framework */,
+				47A6ACA11931CC4400A22074 /* UIKit.framework */,
+				47A6ACBC1931CC4400A22074 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47A6ACA31931CC4400A22074 /* CrazyDrag */ = {
+			isa = PBXGroup;
+			children = (
+				47A6ACDA1932008E00A22074 /* AboutViewController.h */,
+				47A6ACDB1932008E00A22074 /* AboutViewController.m */,
+				47A6ACDC1932008E00A22074 /* AboutViewController.xib */,
+				47A6ACAC1931CC4400A22074 /* CrazyDragAppDelegate.h */,
+				47A6ACAD1931CC4400A22074 /* CrazyDragAppDelegate.m */,
+				47A6ACAF1931CC4400A22074 /* Main.storyboard */,
+				47A6ACB21931CC4400A22074 /* CrazyDragViewController.h */,
+				47A6ACB31931CC4400A22074 /* CrazyDragViewController.m */,
+				47A6ACB51931CC4400A22074 /* Images.xcassets */,
+				47A6ACA41931CC4400A22074 /* Supporting Files */,
+			);
+			path = CrazyDrag;
+			sourceTree = "<group>";
+		};
+		47A6ACA41931CC4400A22074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47A6ACA51931CC4400A22074 /* CrazyDrag-Info.plist */,
+				47A6ACA61931CC4400A22074 /* InfoPlist.strings */,
+				47A6ACA91931CC4400A22074 /* main.m */,
+				47A6ACAB1931CC4400A22074 /* CrazyDrag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47A6ACC21931CC4400A22074 /* CrazyDragTests */ = {
+			isa = PBXGroup;
+			children = (
+				47A6ACC81931CC4400A22074 /* CrazyDragTests.m */,
+				47A6ACC31931CC4400A22074 /* Supporting Files */,
+			);
+			path = CrazyDragTests;
+			sourceTree = "<group>";
+		};
+		47A6ACC31931CC4400A22074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47A6ACC41931CC4400A22074 /* CrazyDragTests-Info.plist */,
+				47A6ACC51931CC4400A22074 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47A6AC991931CC4400A22074 /* CrazyDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A6ACCC1931CC4400A22074 /* Build configuration list for PBXNativeTarget "CrazyDrag" */;
+			buildPhases = (
+				47A6AC961931CC4400A22074 /* Sources */,
+				47A6AC971931CC4400A22074 /* Frameworks */,
+				47A6AC981931CC4400A22074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyDrag;
+			productName = CrazyDrag;
+			productReference = 47A6AC9A1931CC4400A22074 /* CrazyDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A6ACBA1931CC4400A22074 /* CrazyDragTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A6ACCF1931CC4400A22074 /* Build configuration list for PBXNativeTarget "CrazyDragTests" */;
+			buildPhases = (
+				47A6ACB71931CC4400A22074 /* Sources */,
+				47A6ACB81931CC4400A22074 /* Frameworks */,
+				47A6ACB91931CC4400A22074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A6ACC11931CC4400A22074 /* PBXTargetDependency */,
+			);
+			name = CrazyDragTests;
+			productName = CrazyDragTests;
+			productReference = 47A6ACBB1931CC4400A22074 /* CrazyDragTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47A6AC921931CC4400A22074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CrazyDrag;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jeremial;
+				TargetAttributes = {
+					47A6ACBA1931CC4400A22074 = {
+						TestTargetID = 47A6AC991931CC4400A22074;
+					};
+				};
+			};
+			buildConfigurationList = 47A6AC951931CC4400A22074 /* Build configuration list for PBXProject "CrazyDrag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47A6AC911931CC4400A22074;
+			productRefGroup = 47A6AC9B1931CC4400A22074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47A6AC991931CC4400A22074 /* CrazyDrag */,
+				47A6ACBA1931CC4400A22074 /* CrazyDragTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47A6AC981931CC4400A22074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACB61931CC4400A22074 /* Images.xcassets in Resources */,
+				47A6ACA81931CC4400A22074 /* InfoPlist.strings in Resources */,
+				47A6ACDE1932008E00A22074 /* AboutViewController.xib in Resources */,
+				47A6ACB11931CC4400A22074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A6ACB91931CC4400A22074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACC71931CC4400A22074 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A6AC961931CC4400A22074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACAE1931CC4400A22074 /* CrazyDragAppDelegate.m in Sources */,
+				47A6ACAA1931CC4400A22074 /* main.m in Sources */,
+				47A6ACDD1932008E00A22074 /* AboutViewController.m in Sources */,
+				47A6ACB41931CC4400A22074 /* CrazyDragViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A6ACB71931CC4400A22074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6ACC91931CC4400A22074 /* CrazyDragTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47A6ACC11931CC4400A22074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A6AC991931CC4400A22074 /* CrazyDrag */;
+			targetProxy = 47A6ACC01931CC4400A22074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47A6ACA61931CC4400A22074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47A6ACA71931CC4400A22074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47A6ACAF1931CC4400A22074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47A6ACB01931CC4400A22074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47A6ACC51931CC4400A22074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47A6ACC61931CC4400A22074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47A6ACCA1931CC4400A22074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47A6ACCB1931CC4400A22074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47A6ACCD1931CC4400A22074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47A6ACCE1931CC4400A22074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47A6ACD01931CC4400A22074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyDrag.app/CrazyDrag";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazyDragTests/CrazyDragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47A6ACD11931CC4400A22074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyDrag.app/CrazyDrag";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDragTests/CrazyDragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47A6AC951931CC4400A22074 /* Build configuration list for PBXProject "CrazyDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A6ACCA1931CC4400A22074 /* Debug */,
+				47A6ACCB1931CC4400A22074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A6ACCC1931CC4400A22074 /* Build configuration list for PBXNativeTarget "CrazyDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A6ACCD1931CC4400A22074 /* Debug */,
+				47A6ACCE1931CC4400A22074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47A6ACCF1931CC4400A22074 /* Build configuration list for PBXNativeTarget "CrazyDragTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A6ACD01931CC4400A22074 /* Debug */,
+				47A6ACD11931CC4400A22074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47A6AC921931CC4400A22074 /* Project object */;
+}
